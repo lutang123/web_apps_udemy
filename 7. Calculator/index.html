@@ -1,0 +1,21 @@
+//html enter
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <!-- the method is post, meaning we are sending all the information to somewhere defined by action. default is: action="index.html", meaning we are posting to "index.html", this will not work, we should send it to our server, which is on root route "/" -->
+    <!-- we are sending the form using the post method to '/', which is our server on home route-->
+    <form class="" action="/" method="post">
+      <input type="text" name="num1" placeholder="First Number" value="">
+      <input type="text" name="num2" placeholder="Second Number" value="">
+      <!-- default is: type="button" name="button" -->
+      <button type="submit" name="submit">Calculate</button>
+    </form>
+
+  </body>
+</html>
